@@ -161,7 +161,7 @@ RUN \
 		picard
 
 # Install Notepadqq
-Run \
+RUN \
 	add-pkg --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing \
 			--upgrade notepadqq=${NOTEPADQQ_VERSION}
 
